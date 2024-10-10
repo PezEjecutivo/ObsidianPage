@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Información util/Bloques de texto customizados.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Información util/Bloques de texto customizados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Información util/Bloques de texto customizados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "Información util/Bloques de texto customizados.md"
               }
             }
           }
@@ -173,11 +173,11 @@
   },
   "active": "5bd70943d1af0152",
   "lastOpenFiles": [
+    "Información util/Esquemas.md",
+    "index.md",
     "Pasted image 20241011001731.png",
     "Información util/Recomendaciones.md",
-    "Información util/Esquemas.md",
     "Información util/Bloques de texto customizados.md",
-    "index.md",
     "Features/Text Formatting.md",
     "Features/Mermaid Diagrams.md",
     "blog/index.md",
