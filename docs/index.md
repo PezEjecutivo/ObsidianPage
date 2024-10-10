@@ -5,6 +5,7 @@
 Aunque he encontrado varios métodos para hacerlo con diferentes aplicaciones/repositorios, solamente explicare uno en detalle, el que estoy usando.
 
 Estas son las alternativas al método que vamos a utilizar:
+
 - [datopian/obsidian-flowershow](https://github.com/datopian/obsidian-flowershow): plugin for publishing with flowershow direct from your obsidian vault.
 
 - [kmaasrud/oboe](https://github.com/kmaasrud/oboe): tool to convert an Obsidian vault into a static directory of HTML files.
@@ -74,4 +75,10 @@ Después de unos minutos la pagina deberá estar con el contenido nuevo añadido
 
 Algunas de las cosas no funcionan tal y como se ven en Obsidian, por lo que hay que tener cierto cuidado con ello, ya que podemos tener un formato diferente en nuestro Obsidian que en la pagina, para saber como funciona algo en nuestra pagina podemos comprobarlo desde este [enlace](https://squidfunk.github.io/mkdocs-material/reference/ "Documentacion de nuestra plantilla").
 
-# Pablo Valladares González y Juan Francisco González Gómez
+### 5.- Github pages
+Para subirlo a github pages, iremos settings, en el apartado de "Code and automation" y en Branch pondremos la rama de gh-pages, aunque nosotros estemos actualizando la rama de main en vez de la de gh-pages seguirá funcionando sin ningún tipo de problema.
+
+![[Pasted image 20241011001731.png]]
+
+Si es la primera vez que lo usamos, podemos llegar a pensar que no funciona ya que no nos da ningun tipo de feedback, simplemente deberemos esperar un poco y visitar nuestra pagina a ver si esta, si clicamos en el enlace que nos sale en ese mismo apartado que pone github-pages, podremos ver el estado de la pagina.
+### Pablo Valladares González y Juan Francisco González Gómez
