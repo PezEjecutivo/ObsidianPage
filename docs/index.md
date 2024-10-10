@@ -47,7 +47,7 @@ Ya que no podemos actuar sin saber, primero veremos un poco de la estructura del
 
 <span style="color:rgb(0, 176, 240)">.gitignore:</span> Podremos usar este archivo para añadirle las cosas que no queramos que se suban de nuestras notas de Obsidian, por normal general no suele usarse para este uso, pero en nuestro caso nos sirve para ocultar cosas sin problemas y no tener que separar las notas en diferentes baúles en caso de que no queramos.
 
-<span style="color:rgb(0, 176, 240)">mkdocs.yml:</span> Es el archivo que se encarga de hacer el despliegue de github pages, este archivo tiene contenido que puede ser modificado pero debemos entenderlo primero y tener cuidado a la hora de modificarlo, ya que podrías tumbar la pagina, en este fichero se pueden cambiar ajustes como los plugins, temas y demas. 
+<span style="color:rgb(0, 176, 240)">mkdocs.yml:</span> Es el archivo que se encarga de hacer el despliegue de github pages, este archivo tiene contenido que puede ser modificado pero debemos entenderlo primero y tener cuidado a la hora de modificarlo, ya que podrías tumbar la pagina, en este fichero se pueden cambiar ajustes como los plugins, temas y demas. (Para cambiar el titulo de la pagina deberemos cambiar la primera linea y poner lo que nosotros elijamos).
 
 El resto de elementos son 3 imágenes diseñadas para el readme, las cuales podríamos quitar junto al readme.md (Lo verdaderamente correcto seria modificar dicho readme.md en vez de eliminarlo, pero si lo eliminamos tampoco sucedería ningún problema.). Tambien hay una licencia, el propio readme.md.
 
@@ -73,3 +73,5 @@ git push
 Después de unos minutos la pagina deberá estar con el contenido nuevo añadido.
 
 Algunas de las cosas no funcionan tal y como se ven en Obsidian, por lo que hay que tener cierto cuidado con ello, ya que podemos tener un formato diferente en nuestro Obsidian que en la pagina, para saber como funciona algo en nuestra pagina podemos comprobarlo desde este [enlace](https://squidfunk.github.io/mkdocs-material/reference/ "Documentacion de nuestra plantilla").
+
+# Pablo Valladares González y Juan Francisco González Gómez

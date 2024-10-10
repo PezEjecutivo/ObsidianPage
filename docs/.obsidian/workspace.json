@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Features/Mermaid Diagrams.md",
+                "file": "Información util/Esquemas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0dd34c44525e71e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Información util/Recomendaciones.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bd70943d1af0152",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Features/Mermaid Diagrams.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Features/Mermaid Diagrams.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Features/Mermaid Diagrams.md"
+                "file": "index.md"
               }
             }
           }
@@ -146,15 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a86f005913fb033",
+  "active": "5bd70943d1af0152",
   "lastOpenFiles": [
+    "Información util/Recomendaciones.md",
     "Información util/Esquemas.md",
-    "blog/index.md",
-    "blog/posts/hello-world.md",
+    "Información util/Bloques de texto customizados.md",
     "index.md",
-    "Información util",
     "Features/Text Formatting.md",
     "Features/Mermaid Diagrams.md",
+    "blog/index.md",
+    "blog/posts/hello-world.md",
+    "Información util",
     "Features/LaTeX Math Support.md",
     "Topic 1/Note 2.md",
     "Topic 1/Note 1.md",
