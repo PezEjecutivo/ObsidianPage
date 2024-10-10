@@ -81,4 +81,4 @@ Para subirlo a github pages, iremos settings, en el apartado de "Code and automa
 ![[Pasted image 20241011001731.png]]
 
 Si es la primera vez que lo usamos, podemos llegar a pensar que no funciona ya que no nos da ningun tipo de feedback, simplemente deberemos esperar un poco y visitar nuestra pagina a ver si esta, si clicamos en el enlace que nos sale en ese mismo apartado que pone github-pages, podremos ver el estado de la pagina.
-### Pablo Valladares González y Juan Francisco González Gómez
+## Pablo Valladares González y Juan Francisco González Gómez

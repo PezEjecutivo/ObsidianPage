@@ -21,8 +21,15 @@ theme:
               icon: material/toggle-switch
               name: Switch to light mode
 
+    #Copy code
+    features:
+        - content.code.copy
+
 # Extensions
 markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
     - footnotes
     # - attr_list
     - pymdownx.arithmatex:
@@ -46,6 +53,15 @@ markdown_extensions:
 
     - toc:
           permalink: true
+
+    #Code block
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
 
 plugins:
     - search
