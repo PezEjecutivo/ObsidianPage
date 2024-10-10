@@ -19,8 +19,9 @@ Estas son las alternativas al método que vamos a utilizar:
 - [KosmosisDire/obsidian-webpage-export](https://github.com/KosmosisDire/obsidian-webpage-export): Webpage HTML Export lets you export single files or whole vaults as HTML websites or documents. It is similar to publish, but you get direct access to the exported HTML.
 
 - [Enveloppe/obsidian-enveloppe: publish your notes on a GitHub repository from Obsidian Vault](https://github.com/Enveloppe/obsidian-enveloppe)
+
 Nosotros lo haremos desde el siguiente repositorio:
-https://github.com/jobindjohn/obsidian-publish-mkdocs?tab=readme-ov-file
+[Repositorio utilizado](https://github.com/jobindjohn/obsidian-publish-mkdocs?tab=readme-ov-file).
 
 ## Pasos a seguir:
 
