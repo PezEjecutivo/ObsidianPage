@@ -1,0 +1,12 @@
+*CETI*
+- HE
+	- [ ] Práctica 1.1 (-Tue.17oct)
+- IC
+	- [x] [[Práctica 1.0 - Protección de filtraciones de información.pdf]] (-Tue.18oct)
+- BRS/PPS
+	- [x] [[Travesía de casa a clase]] (-Wed)
+- AFI
+	- [ ] [[Práctica 1.3. - Realizar captura de RAM de la máquina virtual Windows 7 Vulnerable]] (-Mon.14oct)
+	- [ ] [[Práctica 1.4]] (-Mon.14oct)
+- NC
+	- [x] Práctica 1 (-Fri.11oct)
