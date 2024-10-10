@@ -36,7 +36,7 @@ Lo único que tendremos que hacer es ponerle un nombre al repositorio, este ser�
 
 (Tengo entendido que puedes poner el repositorio tanto en privado como en publico, pero no he podido comprobar que funcione en privado.).
 
-## 2.- Estructura del repositorio
+### 2.- Estructura del repositorio
 
 Ya que no podemos actuar sin saber, primero veremos un poco de la estructura del repositorio seria el siguiente:
 ![[Pasted image 20241010231636.png]]
@@ -51,14 +51,14 @@ Ya que no podemos actuar sin saber, primero veremos un poco de la estructura del
 
 El resto de elementos son 3 imágenes diseñadas para el readme, las cuales podríamos quitar junto al readme.md (Lo verdaderamente correcto seria modificar dicho readme.md en vez de eliminarlo, pero si lo eliminamos tampoco sucedería ningún problema.). Tambien hay una licencia, el propio readme.md.
 
-## 3.- Crear el baúl de Obsidian
+### 3.- Crear el baúl de Obsidian
 
 Simplemente tendremos que abrir el menú de selección de los baúles, el cual esta abajo a la izquierda o te aparece nada mas abrir Obsidian en el caso de que no tengas ningún otro baúl o sea la primera vez que lo abres.
 
 Clicaremos en la segunda opción "Open folder as vault" y seleccionaremos la carpeta docs de nuestro repositorio.
 ![[Pasted image 20241010232813.png]]
 
-## 4.- Como añadir contenido
+### 4.- Como añadir contenido
 
 Una vez estemos dentro, veremos el menu de la izquierda el cual tiene el contenido actual de la pagina, podremos borrarlo o mantenerlo y modificarlo, dependiendo del uso que quieras darle, pero ya estaria practicamente todo hecho. Solo queda que crees tus notas y lo subas tal y como mencionamos anteriormente.
 
