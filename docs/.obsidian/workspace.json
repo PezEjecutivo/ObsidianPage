@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Como usar Obsidian con GitHub Pages!.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Como usar Obsidian con GitHub Pages!.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Como usar Obsidian con GitHub Pages!.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Como usar Obsidian con GitHub Pages!.md"
+                "file": "index.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "6a86f005913fb033",
   "lastOpenFiles": [
+    "Features/Text Formatting.md",
+    "Features/Mermaid Diagrams.md",
+    "Features/LaTeX Math Support.md",
+    "Topic 1/Note 2.md",
+    "Topic 1/Note 1.md",
+    "index.md",
+    "index.md",
     "Pasted image 20241010233104.png",
     "Pasted image 20241010233056.png",
     "Pasted image 20241010232813.png",
@@ -155,11 +162,6 @@
     "Pasted image 20241010231010.png",
     "Pasted image 20241010230800.png",
     "blog/posts/hello-world.md",
-    "Como usar Obsidian con GitHub Pages!.md",
-    "Features/Text Formatting.md",
-    "Features/Mermaid Diagrams.md",
-    "Features/LaTeX Math Support.md",
-    "blog/index.md",
-    "index.md"
+    "blog/index.md"
   ]
 }
