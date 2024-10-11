@@ -1,0 +1,797 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="Informaci%C3%B3n%20util/Bloques%20de%20texto%20customizados/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="feed_rss_updated.xml">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.40">
+    
+    
+      
+        <title>Espero que te sirva Rafa!</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#como-usar-obsidian-con-github-pages" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Espero que te sirva Rafa!" class="md-header__button md-logo" aria-label="Espero que te sirva Rafa!" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Espero que te sirva Rafa!
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Como usar Obsidian con GitHub Pages!
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Espero que te sirva Rafa!" class="md-nav__button md-logo" aria-label="Espero que te sirva Rafa!" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Espero que te sirva Rafa!
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Como usar Obsidian con GitHub Pages!
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Como usar Obsidian con GitHub Pages!
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodos-para-hacerlo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métodos para hacerlo.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pasos-a-seguir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos a seguir:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pasos a seguir:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-clonar-el-repositorio-usar-la-plantilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.- Clonar el repositorio / usar la plantilla
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-estructura-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.- Estructura del repositorio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-crear-el-baul-de-obsidian" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.- Crear el baúl de Obsidian
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-como-anadir-contenido" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.- Como añadir contenido
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-github-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.- Github pages
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pablo-valladares-gonzalez-y-juan-francisco-gonzalez-gomez" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pablo Valladares González y Juan Francisco González Gómez
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Información util
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Información util
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Informaci%C3%B3n%20util/Bloques%20de%20texto%20customizados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bloques de texto customizados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Informaci%C3%B3n%20util/Esquemas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Esquemas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Informaci%C3%B3n%20util/Recomendaciones/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recomendaciones
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="blog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodos-para-hacerlo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Métodos para hacerlo.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pasos-a-seguir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos a seguir:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pasos a seguir:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-clonar-el-repositorio-usar-la-plantilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.- Clonar el repositorio / usar la plantilla
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-estructura-del-repositorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.- Estructura del repositorio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-crear-el-baul-de-obsidian" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.- Crear el baúl de Obsidian
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-como-anadir-contenido" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.- Como añadir contenido
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-github-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.- Github pages
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pablo-valladares-gonzalez-y-juan-francisco-gonzalez-gomez" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pablo Valladares González y Juan Francisco González Gómez
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="como-usar-obsidian-con-github-pages">Como usar Obsidian con GitHub Pages!<a class="headerlink" href="#como-usar-obsidian-con-github-pages" title="Permanent link">&para;</a></h1>
+<h2 id="metodos-para-hacerlo">Métodos para hacerlo.<a class="headerlink" href="#metodos-para-hacerlo" title="Permanent link">&para;</a></h2>
+<p>Aunque he encontrado varios métodos para hacerlo con diferentes aplicaciones/repositorios, solamente explicare uno en detalle, el que estoy usando.</p>
+<p>Estas son las alternativas al método que vamos a utilizar:</p>
+<ul>
+<li>
+<p><a href="https://github.com/datopian/obsidian-flowershow">datopian/obsidian-flowershow</a>: plugin for publishing with flowershow direct from your obsidian vault.</p>
+</li>
+<li>
+<p><a href="https://github.com/kmaasrud/oboe">kmaasrud/oboe</a>: tool to convert an Obsidian vault into a static directory of HTML files.</p>
+</li>
+<li>
+<p><a href="https://github.com/Jackiexiao/foam-mkdocs-template">Jackiexiao/foam-mkdocs-template</a>: template for Obsidian/Foam using mkdocs/mkdocs-material/mkdocs-roamlinks-plugin</p>
+</li>
+<li>
+<p><a href="https://github.com/foambubble/foam-template">foambubble/foam-template</a>: Foam workpace template</p>
+</li>
+<li>
+<p><a href="https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template">ObsidianPublisher/obsidian-mkdocs-publisher-template</a>: Obsidian Mkdocs Publisher, a free obsidian publish alternative throught Mkdocs</p>
+</li>
+<li>
+<p><a href="https://github.com/KosmosisDire/obsidian-webpage-export">KosmosisDire/obsidian-webpage-export</a>: Webpage HTML Export lets you export single files or whole vaults as HTML websites or documents. It is similar to publish, but you get direct access to the exported HTML.</p>
+</li>
+<li>
+<p><a href="https://github.com/Enveloppe/obsidian-enveloppe">Enveloppe/obsidian-enveloppe: publish your notes on a GitHub repository from Obsidian Vault</a></p>
+</li>
+</ul>
+<p>Nosotros lo haremos desde el siguiente repositorio:
+<a href="https://github.com/jobindjohn/obsidian-publish-mkdocs?tab=readme-ov-file">Repositorio utilizado</a>.</p>
+<h2 id="pasos-a-seguir">Pasos a seguir:<a class="headerlink" href="#pasos-a-seguir" title="Permanent link">&para;</a></h2>
+<h3 id="1-clonar-el-repositorio-usar-la-plantilla">1.- Clonar el repositorio / usar la plantilla<a class="headerlink" href="#1-clonar-el-repositorio-usar-la-plantilla" title="Permanent link">&para;</a></h3>
+<p>Al entrar al repositorio en la barra principal de dicho repositorio nos aparecerá a la derecha del todo un botón que pone "Use the template". 
+<img alt="Pasted image 20241010230800.png" src="Pasted%20image%2020241010230800.png" />
+Si no queremos darle al botón también podemos usar este <a href="https://github.com/jobindjohn/obsidian-publish-mkdocs/generate">enlace</a> el cual se encuentra en el readme.md de dicho repositorio.</p>
+<p>(Ambos casos tienen el mismo resultado, por lo que depende de tu preferencia).</p>
+<p>Lo único que tendremos que hacer es ponerle un nombre al repositorio, este será el que aparezca justo después de nuestro nombre, es decir en mi caso, mi cuenta de github es PezEjecutivo, entonces el enlace seria: pezejecutivo + .github.io + / + Nombre del repositorio/. En mi caso <a href="https://pezejecutivo.github.io/ObsidianPage/">pezejecutivo.github.io/ObsidianPage</a>.
+<img alt="Pasted image 20241010231010.png" src="Pasted%20image%2020241010231010.png" /></p>
+<p>(Tengo entendido que puedes poner el repositorio tanto en privado como en publico, pero no he podido comprobar que funcione en privado.).</p>
+<h3 id="2-estructura-del-repositorio">2.- Estructura del repositorio<a class="headerlink" href="#2-estructura-del-repositorio" title="Permanent link">&para;</a></h3>
+<p>Ya que no podemos actuar sin saber, primero veremos un poco de la estructura del repositorio seria el siguiente:
+<img alt="Pasted image 20241010231636.png" src="Pasted%20image%2020241010231636.png" /></p>
+<p><span style="color:rgb(0, 176, 240)">github/workflows:</span> Debemos tener en cuenta que github/workflows es para que se nos despliegue la pagina como debe ser, ya que sin el la pagina no funcionaria de manera adecuada, así que debemos evitar tocar esa carpeta.</p>
+<p><span style="color:rgb(0, 176, 240)">docs:</span> Esta será la carpeta en la que debemos crear el vault de Obsidian para que según creemos las notas se creen en dicho repositorio, haciendo que lo único que tengamos que hacer una vez escribamos la nota sea subirlo a git (mediante git add . | git commit "mensaje" | git push).</p>
+<p><span style="color:rgb(0, 176, 240)">.gitignore:</span> Podremos usar este archivo para añadirle las cosas que no queramos que se suban de nuestras notas de Obsidian, por normal general no suele usarse para este uso, pero en nuestro caso nos sirve para ocultar cosas sin problemas y no tener que separar las notas en diferentes baúles en caso de que no queramos.</p>
+<p><span style="color:rgb(0, 176, 240)">mkdocs.yml:</span> Es el archivo que se encarga de hacer el despliegue de github pages, este archivo tiene contenido que puede ser modificado pero debemos entenderlo primero y tener cuidado a la hora de modificarlo, ya que podrías tumbar la pagina, en este fichero se pueden cambiar ajustes como los plugins, temas y demas. (Para cambiar el titulo de la pagina deberemos cambiar la primera linea y poner lo que nosotros elijamos).</p>
+<p>El resto de elementos son 3 imágenes diseñadas para el readme, las cuales podríamos quitar junto al readme.md (Lo verdaderamente correcto seria modificar dicho readme.md en vez de eliminarlo, pero si lo eliminamos tampoco sucedería ningún problema.). Tambien hay una licencia, el propio readme.md.</p>
+<h3 id="3-crear-el-baul-de-obsidian">3.- Crear el baúl de Obsidian<a class="headerlink" href="#3-crear-el-baul-de-obsidian" title="Permanent link">&para;</a></h3>
+<p>Simplemente tendremos que abrir el menú de selección de los baúles, el cual esta abajo a la izquierda o te aparece nada mas abrir Obsidian en el caso de que no tengas ningún otro baúl o sea la primera vez que lo abres.</p>
+<p>Clicaremos en la segunda opción "Open folder as vault" y seleccionaremos la carpeta docs de nuestro repositorio.
+<img alt="Pasted image 20241010232813.png" src="Pasted%20image%2020241010232813.png" /></p>
+<h3 id="4-como-anadir-contenido">4.- Como añadir contenido<a class="headerlink" href="#4-como-anadir-contenido" title="Permanent link">&para;</a></h3>
+<p>Una vez estemos dentro, veremos el menu de la izquierda el cual tiene el contenido actual de la pagina, podremos borrarlo o mantenerlo y modificarlo, dependiendo del uso que quieras darle, pero ya estaria practicamente todo hecho. Solo queda que crees tus notas y lo subas tal y como mencionamos anteriormente.</p>
+<p><img alt="Pasted image 20241010233104.png" src="Pasted%20image%2020241010233104.png" /></p>
+<p>(Recordatorio de que aunque nosotros solo modifiquemos la carpeta docs, el repositorio esta en la carpeta principal, por lo que debemos hacer los comandos de git desde alli, no desde docs)</p>
+<p>git add .
+git commit -m "mensaje"
+git push</p>
+<p>Después de unos minutos la pagina deberá estar con el contenido nuevo añadido.</p>
+<p>Algunas de las cosas no funcionan tal y como se ven en Obsidian, por lo que hay que tener cierto cuidado con ello, ya que podemos tener un formato diferente en nuestro Obsidian que en la pagina, para saber como funciona algo en nuestra pagina podemos comprobarlo desde este <a href="https://squidfunk.github.io/mkdocs-material/reference/" title="Documentacion de nuestra plantilla">enlace</a>.</p>
+<h3 id="5-github-pages">5.- Github pages<a class="headerlink" href="#5-github-pages" title="Permanent link">&para;</a></h3>
+<p>Para subirlo a github pages, iremos settings, en el apartado de "Code and automation" y en Branch pondremos la rama de gh-pages, aunque nosotros estemos actualizando la rama de main en vez de la de gh-pages seguirá funcionando sin ningún tipo de problema.</p>
+<p><img alt="Pasted image 20241011001731.png" src="Pasted%20image%2020241011001731.png" /></p>
+<p>Si es la primera vez que lo usamos, podemos llegar a pensar que no funciona ya que no nos da ningun tipo de feedback, simplemente deberemos esperar un poco y visitar nuestra pagina a ver si esta, si clicamos en el enlace que nos sale en ese mismo apartado que pone github-pages, podremos ver el estado de la pagina.</p>
+<h2 id="pablo-valladares-gonzalez-y-juan-francisco-gonzalez-gomez">Pablo Valladares González y Juan Francisco González Gómez<a class="headerlink" href="#pablo-valladares-gonzalez-y-juan-francisco-gonzalez-gomez" title="Permanent link">&para;</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.525ec568.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
